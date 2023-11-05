@@ -1,8 +1,9 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Esempio di figura}{3}{}%
-\contentsline {subsection}{\numberline {1.2}Esempio di tabella}{3}{}%
-\contentsline {section}{\numberline {2}The model}{4}{}%
+\contentsline {section}{\numberline {2}The environmental pollution model}{3}{}%
 \contentsline {paragraph}{Esempio di equazione.}{4}{}%
-\contentsline {section}{\numberline {3}Conclusion}{4}{}%
+\contentsline {section}{\numberline {3}Growth and Environmental pollution in the Solow model}{4}{}%
+\contentsline {section}{\numberline {4}Optimal growth and Environmental pollution}{4}{}%
+\contentsline {subsection}{\numberline {4.1}The Ramsey–Cass–Koopmans model with environmental pollution}{4}{}%
+\contentsline {section}{\numberline {5}Conclusion}{4}{}%
 \contentsline {section}{References}{5}{}%
