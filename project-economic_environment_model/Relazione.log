@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.31)  5 NOV 2023 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.31)  6 NOV 2023 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -962,18 +962,17 @@ LaTeX Warning: Citation `maler_chapter_2005' on page 2 undefined on input line
 LaTeX Warning: Citation `maler_chapter_2005' on page 2 undefined on input line 
 4.
 
-[2]
-<Figure/esempio.jpg, id=47, 1027.84pt x 1027.84pt>
-File: Figure/esempio.jpg Graphic file (type jpg)
-<use Figure/esempio.jpg>
-Package pdftex.def Info: Figure/esempio.jpg  used on input line 32.
-(pdftex.def)             Requested size: 172.5pt x 172.48773pt.
+[2]) (Sezioni/Sezione_2.tex [3]) (Sezioni/Sezione_3.tex
+Overfull \hbox (17.41858pt too wide) in paragraph at lines 1--1
+[]\T1/cmr/bx/n/14.4 Growth and En-vi-ron-men-tal pol-lu-tion in the Solow
+ []
 
+) (Sezioni/Sezione_4.tex
+Overfull \hbox (5.24214pt too wide) in paragraph at lines 3--3
+[]\T1/cmr/bx/n/12 The Ram-sey^^UCass^^UKoopmans model with en-vi-ron-men-
+ []
 
-LaTeX Warning: Citation `Liptser-S-77' on page 3 undefined on input line 38.
-
-) (Sezioni/Sezione_2.tex [3 <./Figure/esempio.jpg>]) (Sezioni/Conclusion.tex)
-[4] (Relazione.bbl) [5
+) (Sezioni/Conclusion.tex) [4] (Relazione.bbl) [5
 
 ] (Relazione.aux)
  ***********
@@ -986,32 +985,35 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30251 strings out of 474717
- 724058 string characters out of 5758250
+ 30263 strings out of 474717
+ 724237 string characters out of 5758250
  1934036 words of memory out of 5000000
- 51806 multiletter control sequences out of 15000+600000
- 565380 words of font info for 47 fonts, out of 8000000 for 9000
+ 51803 multiletter control sequences out of 15000+600000
+ 568737 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,10n,117p,979b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
-1000.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0700.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx0700.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1200.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb>
-Output written on Relazione.pdf (6 pages, 524671 bytes).
+ 81i,10n,117p,1208b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+1200.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecti1000.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm0800.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm0600.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\ginti\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ginti\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\ginti\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y7.pfb>
+Output written on Relazione.pdf (6 pages, 508034 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
+ 361 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

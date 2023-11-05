@@ -1,0 +1,24 @@
+\section{The model}\label{Sec:model}
+ "effective labor" = In the context of a Solow model, if labor time is denoted L and labor's effectiveness, or knowledge, is A, then by effective labor we mean AL. In general means 'efficiency units' of labor or 'productive effort' as opposed to time spent. 
+\paragraph{Esempio di equazione.} %Paragrafo
+Ok, quindi avete visto come si fa per generare una tabella o inserire una figura. E per quanto riguarda le Equazioni?\\
+Semplice, nel modo seguente
+\begin{equation}\label{eq:EinsteinField_eq}
+R_{\mu \nu} - \dfrac{1}{2} R g_{\mu \nu} + \Lambda g_{\mu \mu} = \dfrac{8 \pi G}{c^4} T_{\mu \nu}
+\end{equation}
+E la si richiama nel testo con il solito comando {\it ref}, quindi l'Equazione di Campo di cui sopra è l'Eq.\,\ref{eq:EinsteinField_eq}.\\
+Se ho necessità di scrivere più formule consecutivamente, si usa eqnarray:
+\begin{eqnarray}
+\dfrac{\partial \mathcal D}{\partial t} &=& \nabla \times \mathcal H \\
+\dfrac{\partial \mathcal B}{\partial t} &=& -\nabla \times \mathcal E \\
+\nabla \cdot \mathcal B  &=& 0 \\
+\nabla \cdot \mathcal D  &=& 0 
+\end{eqnarray}
+E se invece di quattro le voglio considerare come fosse una sola:
+\begin{eqnarray}\label{eq:Maxwell_eq}
+\dfrac{\partial \mathcal D}{\partial t} &=& \nabla \times \mathcal H \nonumber \\
+\dfrac{\partial \mathcal B}{\partial t} &=& -\nabla \times \mathcal E \nonumber \\
+\nabla \cdot \mathcal B  &=& 0 \nonumber \\
+\nabla \cdot \mathcal D  &=& 0 
+\end{eqnarray}
+
