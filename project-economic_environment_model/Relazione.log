@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.31)  5 NOV 2023 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.31)  5 NOV 2023 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,11 +966,11 @@ LaTeX Warning: Citation `maler_chapter_2005' on page 2 undefined on input line
 <Figure/esempio.jpg, id=47, 1027.84pt x 1027.84pt>
 File: Figure/esempio.jpg Graphic file (type jpg)
 <use Figure/esempio.jpg>
-Package pdftex.def Info: Figure/esempio.jpg  used on input line 33.
+Package pdftex.def Info: Figure/esempio.jpg  used on input line 32.
 (pdftex.def)             Requested size: 172.5pt x 172.48773pt.
 
 
-LaTeX Warning: Citation `Liptser-S-77' on page 3 undefined on input line 39.
+LaTeX Warning: Citation `Liptser-S-77' on page 3 undefined on input line 38.
 
 ) (Sezioni/Sezione_2.tex [3 <./Figure/esempio.jpg>]) (Sezioni/Conclusion.tex)
 [4] (Relazione.bbl) [5
@@ -1009,9 +1009,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on Relazione.pdf (6 pages, 525353 bytes).
+Output written on Relazione.pdf (6 pages, 524671 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
+ 330 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
