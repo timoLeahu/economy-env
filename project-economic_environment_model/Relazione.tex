@@ -1,0 +1,75 @@
+% Per compilarlo, cliccate su Menu, selezionate come compilatore "pdfLaTeX", TeX Live Version 2020 (o uno degli altri, whatever works), e come documento principale "Relazione.tex"
+
+%%% Preambolo del documento %%%
+\documentclass[a4paper, titlepage]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{floatflt}
+\usepackage{epsfig}
+\usepackage{pstricks}
+\usepackage{subfigure}
+\usepackage[labelfont=bf, font=scriptsize]{caption}
+\usepackage[english]{varioref}
+\usepackage[suftesi]{frontespizio}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{pgfplots}
+\usepackage{comment}
+\usepackage{lipsum}
+\pgfplotsset{compat=1.16}
+%% my add
+\usepackage{enumitem}
+
+
+\begin{document}
+
+%%% Frontespizio %%%
+\begin{frontespizio}
+\Universita{Padova} % CTT
+\Logo{Figure/logo_unipd} % CTT
+\Divisione{Dipartimento di Ing. Civile, Edile e Ambientale} % CTT
+\Corso[Laurea]{Mathematical Engineering} % CTT, a meno che non cambi la denominazione del corso
+\Annoaccademico{2023-24}
+\Titoletto{Project in Dynamical Systems} % CTT
+\Titolo{Economic growth and \\Environmental pollution}
+\Sottotitolo{November 2023}
+\NCandidati{Gruppo di lavoro} % CTT
+\Candidato[2039113]{Timofei Leahu}
+\NRelatore{Docente}{} % CTT
+\Relatore{Prof. Antonio Ponno} % CTT, a meno che non sia cambiato il Prof.
+\end{frontespizio}
+\IfFileExists{\jobname-frn.pdf}{}{\immediate\write18{pdflatex \jobname-frn}} % ASSOLUTAMENTE CTT, è il comando che materialmente vi genera il frontespizio.
+
+%%% Indice %%%
+\tableofcontents
+
+\newpage
+%%% Sezioni %%%
+% Qui inizia la relazione vera e propria.
+% Le Sezioni sono singoli file .tex dentro la cartella Sezioni. Potete a libera scelta scrivere tutto su un singolo file e chiamare all'interno di questi con il comando \section{} le varie sezioni, oppure dividere le singole sezioni in più file Sezione_i.tex, e poi inserirle tutte con \input{Sezioni/Sezione_i.tex} per i = 1 ... N
+\input{Sezioni/Sezione_1.tex}	
+\input{Sezioni/Sezione_2.tex}
+\input{Sezioni/Conclusion.tex}
+
+\clearpage
+%%% Bibliography %%%
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+\newpage
+%%% Appendici %%%
+% Eventuali appendici vanno qui. Se non avete appendici da inserire, togliete/commentate queste righe.
+%\appendix
+%\input{Sezioni/Appendice.tex}	
+
+\end{document}
