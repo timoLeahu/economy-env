@@ -14,32 +14,57 @@ Consequently, given a neoclassical aggregate production function for the economy
 \begin{equation}\label{eq:prod-func}
 	Y = F(K, AL), 
 \end{equation} 
-where $K$ is the capital stock and $AL$ is the effective labour\footnote{ In the context of a Solow model, if labour time is denoted by L and labour's effectiveness, or knowledge, is A, then by effective labor one means AL. In general means 'efficiency units' of labour or 'productive effort' as opposed to time spent.}, to allow for labour augmenting technical change, the flow of emissions at time t can be written as
+where $K$ is the capital stock and $AL$ is the effective labour\footnote{ In the context of a Solow model, if labour time is denoted by L and labour's effectiveness, or knowledge, is A, then by effective labour they mean AL. In general means 'efficiency units' of labour or 'productive effort' as opposed to time spent.}, to allow for labour augmenting technical change, the flow of emissions at time t can be written as
 \begin{equation}\label{eq:flow-emiss}
 	Z(t) = v(Y(t)). 
 \end{equation}
- One can also specify \eqref{eq:flow-emiss} as $Z=\phi Y$, where $\phi$ is the unit emission coefficient, that is, emissions per unit of output. Emissions reducing technologies can be incorporated by further specifying the unit emission coefficient as $\phi (K)$, with $\phi' (K)<0$ for $K\in \mathcal{K} \subset \mathcal{R_+}$. From this assumption it is clear that if the capital stock accumulates, new "cleaner" techniques are used. 
- 
- 
-\paragraph{Esempio di equazione.} %Paragrafo
-Ok, quindi avete visto come si fa per generare una tabella o inserire una figura. E per quanto riguarda le Equazioni?\\
-Semplice, nel modo seguente
-\begin{equation}\label{eq:EinsteinField_eq}
-R_{\mu \nu} - \dfrac{1}{2} R g_{\mu \nu} + \Lambda g_{\mu \mu} = \dfrac{8 \pi G}{c^4} T_{\mu \nu}
+One can also specify \eqref{eq:flow-emiss} as $Z=\phi Y$, where $\phi$ is the unit emission coefficient, that is, emissions per unit of output. Emissions reducing technologies can be incorporated by further specifying the unit emission coefficient as $\phi (K)$, with $\phi' (K)<0$ for $K\in \mathcal{K} \subset \mathcal{R_+}$. From this assumption it is clear that if the capital stock accumulates, new "cleaner" techniques are used. 
+\paragraph{Remark.} The stock of capital can be also split into productive capital, which is the pollution generating capital $K_p$, and abatement capital $K_a$, which is the pollution reducing capital. In this case, the production function can be written as 
+\begin{equation}\label{eq:prod-func-capital-split}
+	Y = F(K_p, AL, K_a)
 \end{equation}
-E la si richiama nel testo con il solito comando {\it ref}, quindi l'Equazione di Campo di cui sopra è l'Eq.\,\ref{eq:EinsteinField_eq}.\\
-Se ho necessità di scrivere più formule consecutivamente, si usa eqnarray:
-\begin{eqnarray}
-\dfrac{\partial \mathcal D}{\partial t} &=& \nabla \times \mathcal H \\
-\dfrac{\partial \mathcal B}{\partial t} &=& -\nabla \times \mathcal E \\
-\nabla \cdot \mathcal B  &=& 0 \\
-\nabla \cdot \mathcal D  &=& 0 
-\end{eqnarray}
-E se invece di quattro le voglio considerare come fosse una sola:
-\begin{eqnarray}\label{eq:Maxwell_eq}
-\dfrac{\partial \mathcal D}{\partial t} &=& \nabla \times \mathcal H \nonumber \\
-\dfrac{\partial \mathcal B}{\partial t} &=& -\nabla \times \mathcal E \nonumber \\
-\nabla \cdot \mathcal B  &=& 0 \nonumber \\
-\nabla \cdot \mathcal D  &=& 0 
-\end{eqnarray}
+and the flow of emissions can be specified as $Z=\phi (K_a)Y$. In the next sections the capital will not be split for simplicity. \\
+
+Another formulation \cite{brock_polluted_1973} allows for the flow of pollution to be an input in the production function:
+\begin{equation}\label{eq:prod-funct-with-poll}
+	Y = F(K, AL, BZ), 
+\end{equation}
+where $BZ$ is the effective flow of pollution as an input, for input augmenting technical change.\footnote{The idea behind this formulation is that “techniques of production are less costly in terms of capital inputs if more pollution is allowed” (\cite{brock_polluted_1973}, p. 443).}
+
+Another way of modeling the environment into production is to consider that environmental quality, $E$, is a factor of production. This formulation captures productivity effects of the environment such as health of workers and the production function can be written as 
+\begin{equation}
+	Y = F(K, AL, E), \quad\text{with}\quad \frac{\partial Y}{\partial E}>0.
+\end{equation}
+
+Damages from environmental pollution can be associated with either the flow of emissions per unit time, such as smoke or noise, or the stock of pollution as emissions are accumulated in the ambient environment, such as greenhouse gases, or heavy metals. When the stock of pollution, denoted by $P$, is of interest, then its accumulation is usually represented by a transition equation:
+\begin{equation}\label{eq:poll-dyn-nonLin}
+	\dot{P} = Z - mP + h(P),
+\end{equation}
+where $m$ reflects exponential pollution decay and $h(P)$ represents a nonlinear feedback, sometimes called internal loadings. The term $h(P)$ in \eqref{eq:poll-dyn-nonLin} is relatively important because could give to the scientist a more precise information about what is going on in the real situation. Most of the time the use of the only linear dynamics, as implied by the exponential pollution decay, to model natural processes might not be a good approximation and, hence, a nonlinear structure induced by feedbacks might be more appropriate. In general, the $h(P)$ function is assumed to be S-shaped, and a common functional form used in applications is $h(P)=P^2 /(1+P^2)$.\footnote{Feedbacks could be positive if the impact is such that the initial perturbation is enhanced, or negative if the initial perturbation is reduced. For example, in the study of climate change, a positive feedback exists when an increase in temperature – say due to increased accumulation of greenhouse gases – increases evaporation from the oceans, which brings more water vapor into the atmosphere and finally enhances greenhouse effects.}
+Ignoring these nonlinearities might obscure very important characteristics that we observe in reality, such as bifurcations of a natural system to alternative equilibrium states, irreversibilities or hysteresis, which could be important in exploring the true nature of the relationship between growth and the environment.
+
+The evolution of environmental quality can be described by a formulation which is equivalent to modeling environmental quality as a renewable resource, or 
+\begin{equation}\label{eq:dyn-env-quality}
+	\dot{E}=R(E)-Z,
+\end{equation}
+where $R(E)$ is an environmental regeneration function and Z represents reduction in environmental quality, or natural capital, from the flow of emissions, through an extractive-like process.
+Either \eqref{eq:poll-dyn-nonLin} or \eqref{eq:dyn-env-quality} can be used to describe the state of the environment.
+
+The environmental dimension is introduced into the utility function by defining a function which includes both consumption and environmental quality among the factors determining the satisfaction derived by individuals. Environmental quality appears as disutility from pollution. Thus we have for the $i$-th individual:
+$$
+	U(c_i, Z) \quad\text{or}\quad U(c_i, P),
+$$
+depending on whether the flow or stock of pollution affects utility. In a decentralized economy, individuals treat environmental quality as fixed when maximizing their utility.
+
+When discussing social optimization, the criterion function for the government or the social planner takes the form of a \textit{felicity functional}\footnote{This follows terminology introduced by Arrow and Kurz \cite{kruz_public_1970}.} with additive utilities over time and identical individuals
+$$
+\int_{0}^{\infty} e^{-\rho t} N(t)U(\bar{c}(t), P(t)) \,dt,
+$$
+where $N(t)$ is the population at time t, $\bar{c}$ is per capita consumption and $\rho \geq 0$ represents the discount rate for future utilities, or rate of time preference.\footnote{For a more detailed analysis of the foundations of a welfare criterion that incorporates environmental concerns, see \cite{heal_chapter_2005}. Further properties of this functional will also be presented in Section \ref{Sec:opt-grow-env-poll} of this chapter.} A similar functional could be written for the case where the utility function includes $Z$ instead of $P$.
+
+If the analysis is carried out in terms of the stock of environmental quality, then the above functional should be written as \footnote{Most of the analysis in the rest of this work will use mainly the formulation where pollution causes disutility as a public bad. The use of the stock of environmental quality as a utility and productivity enhancing stock leads to approximately equivalent results.}
+$$
+\int_{0}^{\infty} e^{-\rho t} N(t)U(\bar{c}(t), E(t)) \,dt.
+$$
+
 

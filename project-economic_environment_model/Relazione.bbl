@@ -1,4 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{brock_polluted_1973}
+William~A. Brock.
+\newblock A polluted golden age.
+\newblock {\em In: Smith, V.L. (Ed.), Economics of Natural and Environmental
+  Resources. Gordon \& Breach, New York}, pages 441--461, 1973.
 
 \bibitem{caravaggio_nonlinear_2018}
 Andrea Caravaggio and Mauro Sodini.
@@ -12,11 +18,32 @@ David Cass.
   {Accumulation}.
 \newblock {\em The Review of Economic Studies}, 32(3):233--240, 1965.
 
+\bibitem{heal_chapter_2005}
+Geoffrey Heal.
+\newblock Chapter 21 {Intertemporal} {Welfare} {Economics} and the
+  {Environment}.
+\newblock In Karl-Göran Mäler and Jeffrey~R. Vincent, editors, {\em Handbook
+  of {Environmental} {Economics}}, volume~3 of {\em Economywide and
+  {International} {Environmental} {Issues}}, pages 1105--1145. Elsevier,
+  January 2005.
+
 \bibitem{koopmans_concept_1963}
 Tjalling Koopmans.
 \newblock On the {Concept} of {Optimal} {Economic} {Growth}.
 \newblock Cowles {Foundation} {Discussion} {Papers} 163, Cowles Foundation for
   Research in Economics, Yale University, 1963.
+
+\bibitem{kruz_public_1970}
+Kenneth J.~Arrow Kruz, Mordecai.
+\newblock {\em Public {Investment}, the {Rate} of {Return}, and {Optimal}
+  {Fiscal} {Policy}}.
+\newblock Johns Hopkins University Press for Resources for the Future,
+  Baltimore, New York, 1970.
+
+\bibitem{lucas_mechanics_1988}
+Robert~E. Lucas.
+\newblock On the mechanics of economic development.
+\newblock {\em Journal of Monetary Economics}, 22(1):3--42, 1988.
 
 \bibitem{ramsey_mathematical_1928}
 F.~P. Ramsey.
@@ -37,5 +64,12 @@ Robert~M. Solow.
 T.~W. Swan.
 \newblock Economic {Growth} and {Capital} {Accumulation}.
 \newblock {\em Economic Record}, 32(2):334--361, 1956.
+
+\bibitem{xepapadeas_chapter_2005}
+Anastasios Xepapadeas.
+\newblock Chapter 23 {Economic} growth and the environment.
+\newblock In Karl-Göran Mäler and Jeffrey~R. Vincent, editors, {\em
+  Economywide and {International} {Environmental} {Issues}}, volume~3 of {\em
+  Handbook of {Environmental} {Economics}}, pages 1219--1271. Elsevier, 2005.
 
 \end{thebibliography}
